@@ -69,12 +69,4 @@ self.configureFileSettings(isoDep: dna.tag!, newFileAccess: newAccessRights) { r
 }
 ```
 
-## License
-This project is licensed under the MIT License.
-
-## Contributions
-Contributions are welcome! Feel free to submit a pull request or open an issue.
-
-## Contact
-For questions or issues, contact `support@quinride.com` or open an issue on GitHub.
 
