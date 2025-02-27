@@ -24,7 +24,7 @@ This project uses:
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/quinride/NFC-Reader.git
+   git clone https://github.com/udaykios/core-nfc
    cd NFC-Reader
    ```
 2. Open the project in Xcode.
