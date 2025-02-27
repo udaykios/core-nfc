@@ -1,6 +1,6 @@
 # NFC Reader for NTAG
 
-This project is a Swift-based NFC reader designed to interact with NTAG 424 NFC chips. The app reads and modifies file settings on the NFC chip while handling authentication and encryption using various cryptographic methods.
+This project is a Swift-based NFC reader designed to interact with NTAG NFC chips. The app reads and modifies file settings on the NFC chip while handling authentication and encryption using various cryptographic methods.
 
 ## Features
 - Reads NTAG 424 NFC chips.
