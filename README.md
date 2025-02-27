@@ -33,7 +33,7 @@ This project uses:
 
 ## Usage
 1. Launch the app and tap the scan button.
-2. Hold the iPhone near an NTAG 424 NFC chip.
+2. Hold the iPhone near an NTAG NFC chip.
 3. The app will authenticate, fetch file settings, and display the results.
 4. If needed, update file permissions to enable or disable write protection.
 
