@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F69075B2D6DD08E00F1E8A0 /* DNAKITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69075A2D6DD08E00F1E8A0 /* DNAKITApp.swift */; };
+		6F69075D2D6DD08E00F1E8A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69075C2D6DD08E00F1E8A0 /* ContentView.swift */; };
+		6F69075F2D6DD09000F1E8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F69075E2D6DD09000F1E8A0 /* Assets.xcassets */; };
+		6F6907622D6DD09000F1E8A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6907612D6DD09000F1E8A0 /* Preview Assets.xcassets */; };
+		6F69076A2D6DD10B00F1E8A0 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6907692D6DD10B00F1E8A0 /* CryptoSwift */; };
+		6F69076E2D6DD1FF00F1E8A0 /* FileConfiguaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F69076D2D6DD1FF00F1E8A0 /* FileConfiguaration.swift */; };
+		6F6907712D6DD29600F1E8A0 /* DNACommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6907702D6DD29600F1E8A0 /* DNACommunicator.swift */; };
+		6F6907742D6DD33100F1E8A0 /* AESEncryptionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6907732D6DD33100F1E8A0 /* AESEncryptionMode.swift */; };
+		6F6907772D6DD36B00F1E8A0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6907762D6DD36B00F1E8A0 /* Helper.swift */; };
+		6F6907792D6DD9B600F1E8A0 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6907782D6DD9B600F1E8A0 /* NFCReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F6907572D6DD08E00F1E8A0 /* DNAKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNAKIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F69075A2D6DD08E00F1E8A0 /* DNAKITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAKITApp.swift; sourceTree = "<group>"; };
+		6F69075C2D6DD08E00F1E8A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F69075E2D6DD09000F1E8A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F6907612D6DD09000F1E8A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F69076D2D6DD1FF00F1E8A0 /* FileConfiguaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileConfiguaration.swift; sourceTree = "<group>"; };
+		6F6907702D6DD29600F1E8A0 /* DNACommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNACommunicator.swift; sourceTree = "<group>"; };
+		6F6907732D6DD33100F1E8A0 /* AESEncryptionMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionMode.swift; sourceTree = "<group>"; };
+		6F6907762D6DD36B00F1E8A0 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6F6907782D6DD9B600F1E8A0 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F6907542D6DD08E00F1E8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F69076A2D6DD10B00F1E8A0 /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F69074E2D6DD08E00F1E8A0 = {
+			isa = PBXGroup;
+			children = (
+				6F6907592D6DD08E00F1E8A0 /* DNAKIT */,
+				6F6907582D6DD08E00F1E8A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F6907582D6DD08E00F1E8A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F6907572D6DD08E00F1E8A0 /* DNAKIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F6907592D6DD08E00F1E8A0 /* DNAKIT */ = {
+			isa = PBXGroup;
+			children = (
+				6F6907752D6DD35900F1E8A0 /* helper */,
+				6F6907722D6DD30500F1E8A0 /* ENCModes */,
+				6F69076F2D6DD25A00F1E8A0 /* DNACommunitor */,
+				6F69076C2D6DD1CD00F1E8A0 /* Configuration */,
+				6F69075A2D6DD08E00F1E8A0 /* DNAKITApp.swift */,
+				6F69075C2D6DD08E00F1E8A0 /* ContentView.swift */,
+				6F6907782D6DD9B600F1E8A0 /* NFCReader.swift */,
+				6F69075E2D6DD09000F1E8A0 /* Assets.xcassets */,
+				6F6907602D6DD09000F1E8A0 /* Preview Content */,
+			);
+			path = DNAKIT;
+			sourceTree = "<group>";
+		};
+		6F6907602D6DD09000F1E8A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F6907612D6DD09000F1E8A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F69076C2D6DD1CD00F1E8A0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6F69076D2D6DD1FF00F1E8A0 /* FileConfiguaration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		6F69076F2D6DD25A00F1E8A0 /* DNACommunitor */ = {
+			isa = PBXGroup;
+			children = (
+				6F6907702D6DD29600F1E8A0 /* DNACommunicator.swift */,
+			);
+			path = DNACommunitor;
+			sourceTree = "<group>";
+		};
+		6F6907722D6DD30500F1E8A0 /* ENCModes */ = {
+			isa = PBXGroup;
+			children = (
+				6F6907732D6DD33100F1E8A0 /* AESEncryptionMode.swift */,
+			);
+			path = ENCModes;
+			sourceTree = "<group>";
+		};
+		6F6907752D6DD35900F1E8A0 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				6F6907762D6DD36B00F1E8A0 /* Helper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F6907562D6DD08E00F1E8A0 /* DNAKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6907652D6DD09000F1E8A0 /* Build configuration list for PBXNativeTarget "DNAKIT" */;
+			buildPhases = (
+				6F6907532D6DD08E00F1E8A0 /* Sources */,
+				6F6907542D6DD08E00F1E8A0 /* Frameworks */,
+				6F6907552D6DD08E00F1E8A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNAKIT;
+			packageProductDependencies = (
+				6F6907692D6DD10B00F1E8A0 /* CryptoSwift */,
+			);
+			productName = DNAKIT;
+			productReference = 6F6907572D6DD08E00F1E8A0 /* DNAKIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F69074F2D6DD08E00F1E8A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6F6907562D6DD08E00F1E8A0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6F6907522D6DD08E00F1E8A0 /* Build configuration list for PBXProject "DNAKIT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F69074E2D6DD08E00F1E8A0;
+			packageReferences = (
+				6F6907682D6DD10A00F1E8A0 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			productRefGroup = 6F6907582D6DD08E00F1E8A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F6907562D6DD08E00F1E8A0 /* DNAKIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F6907552D6DD08E00F1E8A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6907622D6DD09000F1E8A0 /* Preview Assets.xcassets in Resources */,
+				6F69075F2D6DD09000F1E8A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F6907532D6DD08E00F1E8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6907742D6DD33100F1E8A0 /* AESEncryptionMode.swift in Sources */,
+				6F6907712D6DD29600F1E8A0 /* DNACommunicator.swift in Sources */,
+				6F69075D2D6DD08E00F1E8A0 /* ContentView.swift in Sources */,
+				6F69075B2D6DD08E00F1E8A0 /* DNAKITApp.swift in Sources */,
+				6F6907792D6DD9B600F1E8A0 /* NFCReader.swift in Sources */,
+				6F69076E2D6DD1FF00F1E8A0 /* FileConfiguaration.swift in Sources */,
+				6F6907772D6DD36B00F1E8A0 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F6907632D6DD09000F1E8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F6907642D6DD09000F1E8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F6907662D6DD09000F1E8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DNAKIT/Preview Content\"";
+				DEVELOPMENT_TEAM = 9H4T7NK9UH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nfc.DNAKIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F6907672D6DD09000F1E8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DNAKIT/Preview Content\"";
+				DEVELOPMENT_TEAM = 9H4T7NK9UH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nfc.DNAKIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F6907522D6DD08E00F1E8A0 /* Build configuration list for PBXProject "DNAKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6907632D6DD09000F1E8A0 /* Debug */,
+				6F6907642D6DD09000F1E8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6907652D6DD09000F1E8A0 /* Build configuration list for PBXNativeTarget "DNAKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6907662D6DD09000F1E8A0 /* Debug */,
+				6F6907672D6DD09000F1E8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F6907682D6DD10A00F1E8A0 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F6907692D6DD10B00F1E8A0 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6907682D6DD10A00F1E8A0 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6F69074F2D6DD08E00F1E8A0 /* Project object */;
+}
